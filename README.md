@@ -2,4 +2,14 @@
 
 <img src ="alice.jpeg" align="right" alt="Alice logo" width="300">
 
-A simple CLI personal assistant for GNU/Linux
+A simple CLI personal assistant for GNU/Linux written in [Racket](https://racket-lang.org/).
+
+**Current Features**
+
+* A todo list
+
+**Planned Features**
+
+* Search the web
+* Disply weather info
+* Open files in prefered application
