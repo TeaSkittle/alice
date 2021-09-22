@@ -9,7 +9,6 @@
     - Figure out where to place todo file
     - Maybe OS detection?
     - Get args from input and cmd line options( will do in another file most likely )
-    - Make git repo
 |#
 
 ;; Read a file( from yet another scheme tutorial )
