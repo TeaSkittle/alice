@@ -6,10 +6,16 @@
 (provide (all-defined-out))
 
 ;; open search query in browser
-(define (web-open input)
+(define (web-search input)
   (send-url (string-append "https://duckduckgo.com/?q=" input)))
 
 ;; input for search
-(define (web-search)
+(define (web-search-input)
   (display "Search: ")
   (web-open (read-line)))
+
+;; open specific site in browser
+;; site must include http/s
+(define (web-open site)
+  (send-url site))
+
