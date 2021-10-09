@@ -1,6 +1,6 @@
-#lang racket/base
-;; By: Travis Dowd
 ;; Date: 7-4-2021
+;; Basic file handling functions
+#lang racket/base
 (require racket/file)
 (require racket/list)
 (provide (all-defined-out)) ; Let all funcitons in file be used in other files
