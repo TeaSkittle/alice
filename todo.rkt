@@ -7,7 +7,7 @@
 (provide (all-defined-out))
 
 ;; Todo file location
-(define task-file "tasks.txt")
+(define task-file "todo.txt")
 
 ;; Add a task
 (define (task-add task)
@@ -21,3 +21,4 @@
 ;; List tasks
 (define (task-list)
   (line-print task-file))
+

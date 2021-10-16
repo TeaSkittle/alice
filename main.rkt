@@ -5,22 +5,29 @@
 (require "todo.rkt")
 (require "web.rkt")
 
-#| 
-   All the below is delaing with cmd 
-   Remeber that file needs to be executable
-   so: $ chmod a+x
-|#
-
-(define task-string (make-parameter null))
+;; cmd-line guide: https://jackwarren.info/posts/guides/racket/racket-command-line/?utm_source=pocket_mylist
 
 (define parser
   (command-line
    #:usage-help
-   "Alice help function..."
-
+   "Usage: alice [OPTION]... [ARGUMENT]"
+   "A simple digital personal assistant written in Racket\n"
+   
    #:once-each
-   [("-a" "--add-task") ADD
+   [("-l" "--list-tasks") "List tasks in todo list"
+                          (task-list)]
+   [("-a" "--add-task") TASK
                         "Add a task to todo list"
-                        (task-string ADD)]
+                        (task-add TASK)]
+   [("-d" "--delete-task") TASK
+                           "Delete task in todo list by task number"
+                           (task-delete (string->number TASK))]
+   [("-o" "--open-web") SITE
+                        "Open website is default browser(incl"
+                        (web-open SITE)]
+   [("-s" "--search-web") QUERY
+                          "Search the web using DuckDuckGo"
+                          (web-search QUERY)]
+   
    #:args () (void)))
 
