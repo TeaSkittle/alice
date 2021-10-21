@@ -11,3 +11,7 @@
   (system "sudo freshclam")
   (system (string-append "sudo clamscan -i -r --bell " directory)))
 
+;; Update system, -u --update-system
+(define (linux-update)
+  (system "sudo apt update && sudo apt upgrade -y"))
+  
