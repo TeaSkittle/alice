@@ -10,3 +10,18 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/) ai
 * Search the web and open websites
 * Download files from the web
 * Scan system with ClamAV
+
+## Install
+
+To install alice run these commands:
+```Bash
+git clone https://github.com/TeaSkittle/alice
+cd alice/
+sh make.sh
+```
+
+To uninstall:
+```Bash
+sudo rm /usr/local/bin/alice
+sudo rm /usr/local/man/man1/alice.1.gz
+```
