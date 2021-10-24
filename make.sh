@@ -8,6 +8,11 @@ pandoc alice.md -s -t man -o alice.1
 if [ ! -d "/usr/local/man/man1" ]; then
     sudo mkdir /usr/local/man/man1
 fi
+echo "Making ~/.config/alice/ directory..."
+if [ ! -d "~/.config/alice" ]; then
+    mkdir ~/.config/alice
+fi
+touch ~/.config/alice/todo.txt
 sudo mv alice.1 /usr/local/man/man1
 sudo gzip /usr/local/man/man1/alice.1
 sudo mandb
