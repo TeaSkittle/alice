@@ -4,12 +4,17 @@
 
 A simple CLI personal assistant written in [Racket](https://racket-lang.org/) aimed at Debian-based Linux systems.
 
-**Features**
+**Current Features**
 
-* A todo list
-* Search the web and open websites
-* Download files from the web
-* Scan system with ClamAV
++ A todo list
++ Search the web and open websites
++ Download files from the web
++ Scan system with ClamAV
+
+**Planned Features**
+
++ iptables commands
++ update system and packages
 
 ## Install
 
