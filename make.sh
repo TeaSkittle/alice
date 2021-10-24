@@ -19,6 +19,6 @@ sudo mandb
 echo "Making alice executable..."
 raco exe -o alice main.rkt
 echo "Moving to /usr/local/bin/alice..."
-sudo cp alice /usr/local/bin/
+sudo mv alice /usr/local/bin/
 echo "alice setup compelete\n"
 
