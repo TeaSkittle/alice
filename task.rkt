@@ -7,7 +7,7 @@
 (provide (all-defined-out))
 
 ;; Todo file location
-(define task-file "todo.txt")
+(define task-file "/var/local/todo.txt")
 
 ;; Add a task
 (define (task-add task)

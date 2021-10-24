@@ -11,7 +11,7 @@ fi
 sudo mv alice.1 /usr/local/man/man1
 sudo gzip /usr/local/man/man1/alice.1
 sudo mandb
-echo "Makeing alice executable..."
+echo "Making alice executable..."
 raco exe -o alice main.rkt
 echo "Moving to /usr/local/bin/alice..."
 sudo cp alice /usr/local/bin/
