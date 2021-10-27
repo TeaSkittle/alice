@@ -2,7 +2,7 @@
 
 <img src ="alice.jpeg" align="right" alt="Alice logo" width="300">
 
-A simple CLI personal assistant written in [Racket](https://racket-lang.org/) aimed at Debian-based Linux systems. This is a current W.I.P. that is a side project and hobby, so updates are inconsistent.
+A simple CLI personal assistant written in [Racket](https://racket-lang.org/), aimed at Debian-based Linux systems. This is a current W.I.P. that is a side project and hobby, so updates are inconsistent.
 
 **Current Features**
 
@@ -18,6 +18,7 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/) ai
 + Interactive mode
 + Personality in interactive mode (opening messgae for example)
 + Open background music in browser
++ Install with Racket (instead of using shell script)
 
 ## Install
 
