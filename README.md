@@ -14,7 +14,10 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/) ai
 **Planned Features**
 
 + iptables commands
-+ update system and packages
++ Update system and packages
++ Interactive mode
++ Personality (opening messgae for example)
++ Open background music in browser
 
 ## Install
 
