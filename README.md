@@ -16,7 +16,7 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/), a
 + iptables commands
 + Update system and packages
 + Interactive mode
-+ Personality in interactive mode (opening messgae for example)
++ Personality in interactive mode (opening message for example)
 + Open background music in browser
 + Install with Racket (instead of using shell script)
 
