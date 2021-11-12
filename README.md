@@ -19,6 +19,7 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/), a
 + Personality in interactive mode (opening message for example)
 + Open background music in browser
 + Install with Racket (instead of using shell script)
++ Add simple server functionality for local file sharing
 
 ## Install
 
