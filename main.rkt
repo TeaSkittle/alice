@@ -36,8 +36,8 @@
                         "Download file from the web"
                         (web-get FILE)]
    [("-c" "--clamav-scan") DIR
-                              "Scan for infected files in specified directory with ClamAV"
-                              (linux-scan DIR)]
+                           "Scan for infected files in specified directory with ClamAV"
+                           (linux-scan DIR)]
    [("-f" "--file-server") "Simple HTTP server via python3"
                            (linux-server)]
    [("-m" "--music") "Open a YouTube playlist with background music"
