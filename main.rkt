@@ -38,6 +38,10 @@
    [("-c" "--clamav-scan") DIR
                               "Scan for infected files in specified directory with ClamAV"
                               (linux-scan DIR)]
+   [("-f" "--file-server") "Simple HTTP server via python3"
+                           (linux-server)]
+   [("-m" "--music") "Open a YouTube playlist with background music"
+                     (web-open "https://youtube.com/playlist?list=PLUlsSisLm8rY1HUxCwZcOaCOHHyuNHH8z")]
    
    #:args () (void)))
 

@@ -7,7 +7,10 @@
 (provide (all-defined-out))
 
 ;; Todo file location
-(define task-file (string-append (path->string (find-system-path 'home-dir)) ".config/alice/todo.txt"))
+(define task-file
+  (string-append (path->string
+                  (find-system-path 'home-dir))
+                 ".config/alice/todo.txt"))
 
 ;; Add a task
 (define (task-add task)

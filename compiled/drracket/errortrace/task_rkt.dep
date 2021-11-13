@@ -1,0 +1,1 @@
+("7.8" racket ("6284afdd0cfb88b4f356487a31e62d945be5ffcf" . "9b5cca81756e9be54ebc0df7584c10f92590e824") #"/home/tea/Documents/GitHub/alice/fileh.rkt" (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"base.rkt") (collects #"racket" #"file.rkt") (collects #"racket" #"runtime-config.rkt"))

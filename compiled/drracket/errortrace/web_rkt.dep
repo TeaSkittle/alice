@@ -1,0 +1,1 @@
+("7.8" racket ("7f7a52faf3f7f4a32a6be1a3ec47c6981c55164f" . "cad4197036f5220dea7b4d067fd2c93d09b4f3d4") (collects #"errortrace" #"errortrace-key.rkt") (collects #"net" #"sendurl.rkt") (collects #"net" #"url.rkt") (collects #"racket" #"base.rkt") (collects #"racket" #"port.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"racket" #"system.rkt"))

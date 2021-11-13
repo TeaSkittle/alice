@@ -45,6 +45,12 @@ OPTIONS
 `-c <DIR>, --clamav-scan <DIR>`
 : Scan for infected files in specified directory with ClamAV
 
+`-f, --file-server`
+: Simple HTTP server via python3
+
+`-m, --music`
+: Open a YouTube playlist with background music
+
 BUGS
 ===
 

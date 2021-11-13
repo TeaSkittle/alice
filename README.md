@@ -10,20 +10,27 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/), a
 + Search the web and open websites
 + Download files from the web
 + Scan system with ClamAV
++ Open background music in browser
++ Simple server functionality for LAN file sharing
 
 **Planned Features**
 
 + iptables commands
-+ Update system and packages
 + Interactive mode
 + Personality in interactive mode (opening message for example)
-+ Open background music in browser
-+ Install with Racket (instead of using shell script)
-+ Add simple server functionality for local file sharing
+
+## Dependancies
+
+> These packages are installed along with alice when running make.sh
+
++ Racket
++ ClamAV
++ pandoc
++ gzip
 
 ## Install
 
-To install alice run these commands:
+To install alice on a Debian-based distro, run these commands:
 ```Bash
 git clone https://github.com/TeaSkittle/alice
 cd alice/
