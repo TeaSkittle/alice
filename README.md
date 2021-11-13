@@ -17,6 +17,7 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/), a
 
 + Interactive mode
 + Personality in interactive mode (opening message for example)
++ Move file server from python to racket
 
 ## Dependancies
 
