@@ -37,7 +37,7 @@ cd alice/
 sh make.sh
 ```
 To install on other Distros:
-**UNDER CONTRUCTION***
+**UNDER CONTRUCTION**
 
 To uninstall:
 ```Bash
