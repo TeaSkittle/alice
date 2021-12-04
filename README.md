@@ -38,7 +38,20 @@ cd alice/
 sh make.sh
 ```
 To install on other Distros:
-**UNDER CONTRUCTION**
+> Install dependancies and run the following
+```Bash
+git clone https://github.com/TeaSkittle/alice
+cd alice/
+pandoc alice.md -s -t man -o alice.1
+sudo mkdir /usr/local/man/man1
+mkdir ~/.config/alice
+touch ~/.config/alice/todo.txt
+sudo mv alice.1 /usr/local/man/man1
+sudo gzip /usr/local/man/man1/alice.1
+sudo mandb
+raco exe -o alice main.rkt
+sudo mv alice /usr/local/bin/
+```
 
 To uninstall:
 ```Bash
