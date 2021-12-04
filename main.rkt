@@ -6,8 +6,6 @@
 (require "web.rkt")
 (require "linux.rkt")
 
-(provide (all-defined-out))
-
 ;; cmd-line guide: https://jackwarren.info/posts/guides/racket/racket-command-line/
 
 (define version "Testing")
