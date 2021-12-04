@@ -9,7 +9,7 @@
 
 ; cmd-line guide: https://jackwarren.info/posts/guides/racket/racket-command-line/
 
-(define version "Testing")
+(define version "1.0")
 
 (define parser
   (command-line
@@ -18,7 +18,7 @@
    
    #:once-each
    [("--version") "Display Alice version"
-                  (printf "Alice: ~a\n" version)]
+                  (printf "Version: ~a\n" version)]
    [("-l" "--list-tasks") "List tasks in todo list"
                           (task-list)]
    [("-a" "--add-task") TASK
@@ -43,9 +43,8 @@
                            (linux-server)]
    [("-m" "--music") "Open a YouTube playlist with background music"
                      (web-open music-url)]
-   [("-i" "--interactive") "Run alice in interactive mode (same as running alice with no arguments)"
+   [("-i" "--interactive") "Run alice in interactive mode"
                            (prompt)]
    
    #:args () (void)))
 
-(prompt)
