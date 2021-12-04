@@ -1,1 +1,0 @@
-("7.2" racket ("739c0afef45f52fc367bf49fa879bfd99cdf5709" . "386fafd1f80b0311fb6492d4845eed5a0f9fc7f7") #"/home/tea/Downloads/alice/linux.rkt" #"/home/tea/Downloads/alice/task.rkt" #"/home/tea/Downloads/alice/web.rkt" (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"base.rkt") (collects #"racket" #"cmdline.rkt") (collects #"racket" #"runtime-config.rkt"))
