@@ -6,7 +6,7 @@
 (require "web.rkt")
 (require "linux.rkt")
 
-;; cmd-line guide: https://jackwarren.info/posts/guides/racket/racket-command-line/?utm_source=pocket_mylist
+;; cmd-line guide: https://jackwarren.info/posts/guides/racket/racket-command-line/
 
 (define version "Testing")
 
