@@ -6,6 +6,8 @@
 (require "web.rkt")
 (require "linux.rkt")
 
+(provide (all-defined-out))
+
 ; The main input loop
 (define (prompt)
   (display "> ")
@@ -15,12 +17,12 @@
         [(string=? command "server")(linux-server)(prompt)]
         [(string=? command "music")(web-open music-url)(prompt)]
         ; Get more input
-        [(string=? command "add")(task-add (read-line))(prompt)]
-        [(string=? command "delete")(task-delete (read-line))(prompt)]
-        [(string=? command "open")(web-open (read-line))(prompt)]
-        [(string=? command "search")(web-search (read-line))(prompt)]
-        [(string=? command "get")(web-get (read-line))(prompt)]
-        [(string=? command "scan")(linux-scan (read-line))(prompt)]
+        [(string=? command "add")(display "> ")(task-add (read-line))(prompt)]
+        [(string=? command "delete")(display "> ")(task-delete (read-line))(prompt)]
+        [(string=? command "open")(display "> ")(web-open (read-line))(prompt)]
+        [(string=? command "search")(display "> ")(web-search (read-line))(prompt)]
+        [(string=? command "get")(display "> ")(web-get (read-line))(prompt)]
+        [(string=? command "scan")(display "> ")(linux-scan (read-line))(prompt)]
         ; Exit and errors
         [(string=? command "exit")(displayln "exited successfully...")]
         [else (displayln "unkown command")(prompt)]))

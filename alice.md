@@ -50,6 +50,8 @@ OPTIONS
 
 `-m, --music`
 : Open a YouTube playlist with background music
+`-i, --interactive`
+: Run alice in interactive mode (same as running alice with no arguments)
 
 BUGS
 ===

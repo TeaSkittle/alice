@@ -5,8 +5,9 @@
 (require "task.rkt")
 (require "web.rkt")
 (require "linux.rkt")
+(require "prompt.rkt")
 
-;; cmd-line guide: https://jackwarren.info/posts/guides/racket/racket-command-line/
+; cmd-line guide: https://jackwarren.info/posts/guides/racket/racket-command-line/
 
 (define version "Testing")
 
@@ -42,6 +43,9 @@
                            (linux-server)]
    [("-m" "--music") "Open a YouTube playlist with background music"
                      (web-open music-url)]
+   [("-i" "--interactive") "Run alice in interactive mode (same as running alice with no arguments)"
+                           (prompt)]
    
    #:args () (void)))
 
+(prompt)
