@@ -9,6 +9,9 @@
 
 (provide (all-defined-out))
 
+; Music url
+(define music-url "https://youtube.com/playlist?list=PLUlsSisLm8rY1HUxCwZcOaCOHHyuNHH8z")
+
 ; open search query in browser
 (define (web-search input)
   (send-url (string-append "https://duckduckgo.com/?q=" input)))
