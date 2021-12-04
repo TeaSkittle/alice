@@ -41,7 +41,7 @@
    [("-f" "--file-server") "Simple HTTP server via python3"
                            (linux-server)]
    [("-m" "--music") "Open a YouTube playlist with background music"
-                     (web-open "https://youtube.com/playlist?list=PLUlsSisLm8rY1HUxCwZcOaCOHHyuNHH8z")]
+                     (web-open music-url)]
    
    #:args () (void)))
 
