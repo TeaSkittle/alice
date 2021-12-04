@@ -13,9 +13,7 @@
   (cond [(string=? command "help")(help)(prompt)]
         [(string=? command "list")(task-list)(prompt)]
         [(string=? command "server")(linux-server)(prompt)]
-        [(string=? command "music")
-         (web-open "https://youtube.com/playlist?list=PLUlsSisLm8rY1HUxCwZcOaCOHHyuNHH8z")
-         (prompt)]
+        [(string=? command "music")(web-open music-url)(prompt)]
         ; Get more input
         [(string=? command "add")(task-add (read-line))(prompt)]
         [(string=? command "delete")(task-delete (read-line))(prompt)]
