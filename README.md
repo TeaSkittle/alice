@@ -12,12 +12,11 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/), a
 + Scan system with ClamAV
 + Open background music in browser
 + Simple server functionality for LAN file sharing
++ Interactive mode
 
 **Planned Features**
 
-+ Interactive mode
 + Personality in interactive mode (opening message for example)
-+ Move file server from python to racket
 
 ## Dependancies
 
