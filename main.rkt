@@ -11,40 +11,39 @@
 
 (define version "1.0")
 
-(define parser
-  (command-line
-   #:usage-help
-   "A simple digital personal assistant written in Racket."
+(command-line
+ #:usage-help
+ "A simple digital personal assistant written in Racket."
    
-   #:once-each
-   [("--version") "Display Alice version"
+ #:once-each
+ [("--version") "Display Alice version"
                   (printf "Version: ~a\n" version)]
-   [("-l" "--list-tasks") "List tasks in todo list"
+ [("-l" "--list-tasks") "List tasks in todo list"
                           (task-list)]
-   [("-a" "--add-task") TASK
+ [("-a" "--add-task") TASK
                         "Add a task to todo list"
                         (task-add TASK)]
-   [("-d" "--delete-task") TASK
+ [("-d" "--delete-task") TASK
                            "Delete task in todo list by task number"
                            (task-delete (string->number TASK))]
-   [("-o" "--open-web") SITE
+ [("-o" "--open-web") SITE
                         "Open website in default web browser(must include http/s)"
                         (web-open SITE)]
-   [("-s" "--search-web") QUERY
+ [("-s" "--search-web") QUERY
                           "Search the web using DuckDuckGo"
                           (web-search QUERY)]
-   [("-g" "--get-file") FILE
+ [("-g" "--get-file") FILE
                         "Download file from the web"
                         (web-get FILE)]
-   [("-c" "--clamav-scan") DIR
+ [("-c" "--clamav-scan") DIR
                            "Scan for infected files in specified directory with ClamAV"
                            (linux-scan DIR)]
-   [("-f" "--file-server") "Simple HTTP server via python3"
+ [("-f" "--file-server") "Simple HTTP server via python3"
                            (linux-server)]
-   [("-m" "--music") "Open a YouTube playlist with background music"
+ [("-m" "--music") "Open a YouTube playlist with background music"
                      (web-open music-url)]
-   [("-i" "--interactive") "Run alice in interactive mode"
+ [("-i" "--interactive") "Run alice in interactive mode"
                            (prompt)]
    
-   #:args () (void)))
+ #:args () (void))
 
