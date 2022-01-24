@@ -4,7 +4,7 @@
 
 ; Basic file handling functions
 
-(provide (all-defined-out)) ; Let all funcitons in file be used in other files
+(provide (all-defined-out)) ; Let all functions in file be used in other files
 
 ; Read a file( from yet another scheme tutorial )
 (define (read-file file-name)
