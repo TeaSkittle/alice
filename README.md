@@ -19,6 +19,7 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/), a
 + Personality in interactive mode (opening message for example)
 + Combine with [tutils](https://github.com/TeaSkittle/tutils)
 + Scan system with [Lynis](https://cisofy.com/lynis/)
++ Install through Racket instead of sh file
 
 ## Dependancies
 
