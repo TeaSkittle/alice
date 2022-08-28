@@ -2,7 +2,7 @@
 
 <img src ="alice.jpeg" align="right" alt="Alice logo" width="300">
 
-A simple CLI personal assistant written in [Racket](https://racket-lang.org/), aimed at Linux systems.
+A simple CLI personal assistant written in [Racket](https://racket-lang.org/), aimed at Ubuntu-based Linux systems.
 
 **Current Features**
 
@@ -17,6 +17,8 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/), a
 **Planned Features**
 
 + Personality in interactive mode (opening message for example)
++ Combine with [tutils](https://github.com/TeaSkittle/tutils)
++ Scan system with [Lynis](https://cisofy.com/lynis/)
 
 ## Dependancies
 
