@@ -5,7 +5,7 @@ echo "Installing dependencies..."
 #
 # TODO:
 # Will be checking for installs rather than installing outright
-# Tell user to install dependcies before install alice
+# Tell user to install dependancies before install alice
 #
 sudo apt-get install pandoc clamav gzip python3 racket -y
 echo "Generating man page..."
