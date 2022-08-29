@@ -2,6 +2,11 @@
 # Simple script to download dependencies and install alice
 
 echo "Installing dependencies..."
+#
+# TODO:
+# Will be checking for installs rather than installing outright
+# Tell user to install dependcies before install alice
+#
 sudo apt-get install pandoc clamav gzip python3 racket -y
 echo "Generating man page..."
 pandoc /docs/alice.md -s -t man -o /docs/alice.1
