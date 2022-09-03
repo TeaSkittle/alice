@@ -44,5 +44,5 @@ sh make.sh
 
 To uninstall:
 ```Bash
-sudo rm /usr/local/bin/alice && sudo rm /usr/local/man/man1/alice.1.gz
+sudo rm -rf /usr/local/bin/alice && sudo rm /usr/local/man/man1/alice.1.gz
 ```
