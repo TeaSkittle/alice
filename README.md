@@ -26,6 +26,7 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/), a
 > These packages are installed along with alice when running make.sh
 
 + Racket
++ Git
 + python3
 + ClamAV
 + pandoc
@@ -37,9 +38,7 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/), a
 
 To install alice on a Debian-based distro, run these commands:
 ```Bash
-git clone https://github.com/TeaSkittle/alice
-cd alice/
-sh make.sh
+curl
 ```
 
 To uninstall:
