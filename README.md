@@ -38,7 +38,7 @@ A simple CLI personal assistant written in [Racket](https://racket-lang.org/), a
 
 To install alice on a Debian-based distro, run these commands:
 ```Bash
-curl
+curl https://raw.githubusercontent.com/TeaSkittle/alice/main/install.rkt | racket
 ```
 
 To uninstall:
