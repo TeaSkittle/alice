@@ -38,7 +38,7 @@
 (parameterize ([current-command-line-arguments (vector "-o" "out" "alice/src/main.rkt")])
   (dynamic-require (second (hash-ref make "exe")) #f))
 (system "sudo mv out /usr/local/bin/alice")
-;(delete-directory/files "alice/")
+(delete-directory/files "alice/")
 
 ; Finished
 (newline)
